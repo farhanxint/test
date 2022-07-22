@@ -1,0 +1,146 @@
+.main-menu
+{
+    margin-top: 5rem;
+}
+.vertical-line {
+    border-left: 1px solid #ced4da;
+    height: 13px;
+    position: absolute;
+    top: 9px;
+}
+.vertical-nav-menu-line {
+    border-left: 2px solid #ced4da;
+    height: 14px;
+    position: absolute;
+    top: 18px;
+    font-weight: bold;
+    width: 10px;
+}
+.vertical-header-menu-line{
+    border-left: 2px solid #681a1a ;
+    height: 14px;
+    position: absolute;
+    top: 33px;
+    font-weight: bold;
+    width: 10px;
+}
+.border-set
+{
+    border-right: 2px solid;
+}
+.horizontal-line
+{
+    border-bottom: 6px solid;
+    width: 100px;
+}
+.horizontal-line-tender
+{
+    border-bottom: 3px solid;
+    font-weight: bold;
+}
+.vertical-line-tender {
+    border-right: 3px solid;
+    font-weight: bold;
+    position: absolute !important;
+    height: 600px;
+    right: 10px;
+}
+
+.dot-approved {
+    height: 15px;
+    width: 15px;
+    background-color: #5cb85c;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot-pending {
+    height: 15px;
+    width: 15px;
+    background-color: #FFFF00;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot-rejected {
+    height: 15px;
+    width: 15px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+textarea {
+    resize: none !important;
+}
+
+/*<===============global search set==========>*/
+.search-form-style
+{
+    width: 65%;
+}
+
+@media (max-width: 1110px)
+{
+    .search-form-style
+    {
+        width: 50%;
+    }
+}
+@media (max-width: 870px)
+{
+    .search-form-style
+    {
+        width: 40%;
+    }
+
+}
+@media (max-width: 470px)
+{
+    .search-form-style
+    {
+        width: 30%;
+    }
+}
+.do-zoom-in
+{
+    cursor: zoom-in;
+}
+.set-width
+{
+    width: 35%;
+}
+
+.login-button:hover {
+    text-decoration: underline;
+}
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+.img-set {
+    max-width: 100%;
+    width: 200px
+}
+.remove-img-style
+{
+    position: absolute;
+    left: 175px;
+    top: 26px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0px 7px;
+    font-weight: bold;
+    color: #BF0001;
+    font-size: 13px;
+}
+.card-img-overlay:after
+{
+    background: rgba(245, 170, 170, 0.37) !important;
+}
+
+button#heading-filters {
+    margin-bottom: 15px;
+}
+
+
+
+
